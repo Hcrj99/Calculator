@@ -9,9 +9,9 @@ function App() {
         src={freeCodeCamplogo} 
         className = 'Logo__container-logo'
         alt = 'Logo of freecodecamp' />
-        <section className='Container__calculator'>
+      </section>
+      <section className='Container__calculator'>
 
-        </section>
       </section>
     </div>
   );
