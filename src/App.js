@@ -24,31 +24,31 @@ function App() {
       <section className='Container__calculator'>
         <Screen input={input}/>
         <div className='row'>
-          <Button>1</Button>
-          <Button>2</Button>
-          <Button>3</Button>
-          <Button>+</Button>
+          <Button handleClic={addInput}>1</Button>
+          <Button handleClic={addInput}>2</Button>
+          <Button handleClic={addInput}>3</Button>
+          <Button handleClic={addInput}>+</Button>
         </div>
         <div className='row'>
-          <Button>4</Button>
-          <Button>5</Button>
-          <Button>6</Button>
-          <Button>-</Button>
+          <Button handleClic={addInput}>4</Button>
+          <Button handleClic={addInput}>5</Button>
+          <Button handleClic={addInput}>6</Button>
+          <Button handleClic={addInput}>-</Button>
         </div>
         <div className='row'>
-          <Button>7</Button>
-          <Button>8</Button>
-          <Button>9</Button>
-          <Button>*</Button>
+          <Button handleClic={addInput}>7</Button>
+          <Button handleClic={addInput}>8</Button>
+          <Button handleClic={addInput}>9</Button>
+          <Button handleClic={addInput}>*</Button>
         </div>
         <div className='row'>
-          <Button>0</Button>
-          <Button>.</Button>
-          <Button>=</Button>
-          <Button>/</Button>
+          <Button handleClic={addInput}>0</Button>
+          <Button handleClic={addInput}>.</Button>
+          <Button handleClic={addInput}>=</Button>
+          <Button handleClic={addInput}>/</Button>
         </div>
         <div className='row'>
-          <ButtonClear>Clear</ButtonClear>
+          <ButtonClear handleClic={addInput}>Clear</ButtonClear>
         </div>
       </section>
     </div>
